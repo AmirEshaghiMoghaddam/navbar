@@ -198,11 +198,13 @@ nav {
 .social-icons {
   display: none;
 }
+/* when navbar has this class it is not discoverable */
 .links {
-  /* height: 0;
+  height: 0;
   overflow: hidden;
-  transition: var(--transition); */
+  transition: var(--transition);
 }
+/* adding this class makes navbar discoverable */
 .show-links {
   height: 10rem;
 }
